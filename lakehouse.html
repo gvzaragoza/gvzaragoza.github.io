@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Diamond In The Rough</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+	<link href="lightbox2-master\dist\css\lightbox.css" rel="stylesheet">
+    <link rel="stylesheet" href="gallery-clean.css">
+	
+	<script src="lightbox2-master\dist\js\lightbox-plus-jquery.js"></script>
+	
+	<script>
+		$(document).ready(function() {
+			$('img.nav_icon').css('opacity', 0.5);
+			
+			$('.nav_icon').hover(function() {
+				$(this).css('opacity', 1.0);
+			},
+			function() {
+				$(this).css('opacity', 0.5);
+			});
+			
+			$('.arrow').hover(function() {	
+				$(this).css('opacity', 1.0);
+			},
+			function() {
+				$(this).css('opacity', 0.5);
+			});
+			
+			$('#front_view').hover(function() {	
+				$(this).attr('src', '../images/lake_house/front_view_7.jpg');
+			},
+			function() {
+				$(this).attr('src', '../images/lake_house/front_view_1.jpg');
+			});
+			$('#back_view').hover(function() {
+				$(this).attr('src', '../images/lake_house/back_view_4.jpg');
+			},
+			function() {
+				$(this).attr('src', '../images/lake_house/back_view_1.jpg');
+			});
+			$('#foyer').hover(function() {
+				$(this).attr('src', '../images/lake_house/foyer_2.jpg');
+			},
+			function() {
+				$(this).attr('src', '../images/lake_house/foyer_1.jpg');
+			});
+			$('#living_room').hover(function() {
+				$(this).attr('src', '../images/lake_house/living_room_8.jpg');
+			},
+			function() {
+				$(this).attr('src', '../images/lake_house/living_room_1.jpg');
+			});
+			$('#dining_room').hover(function() {
+				$(this).attr('src', '../images/lake_house/dining_room_4.jpg');
+			},
+			function() {
+				$(this).attr('src', '../images/lake_house/dining_room_1.jpg');
+			});
+			$('#kitchen').hover(function() {
+				$(this).attr('src', '../images/lake_house/kitchen_6.jpg');
+			},
+			function() {
+				$(this).attr('src', '../images/lake_house/kitchen_1.jpg');
+			});
+			$('#1st_floor_bathroom').hover(function() {
+				$(this).attr('src', '../images/lake_house/1st_floor_bathroom_3.jpg');
+			},
+			function() {
+				$(this).attr('src', '../images/lake_house/1st_floor_bathroom_1.jpg');
+			});
+			$('#stairs').hover(function() {
+				$(this).attr('src', '../images/lake_house/stairs_6.jpg');
+			},
+			function() {
+				$(this).attr('src', '../images/lake_house/stairs_1.jpg');
+			});
+			$('#guest_bedroom').hover(function() {
+				$(this).attr('src', '../images/lake_house/guest_bedroom_5.jpg');
+			},
+			function() {
+				$(this).attr('src', '../images/lake_house/guest_bedroom_1.jpg');
+			});
+			$('#childrens_bedroom').hover(function() {
+				$(this).attr('src', '../images/lake_house/children\'s_bedroom_6.jpg');
+			},
+			function() {
+				$(this).attr('src', '../images/lake_house/children\'s_bedroom_1.jpg');
+			});
+			$('#master_closet').hover(function() {
+				$(this).attr('src', '../images/lake_house/master_closet_8.jpg');
+			},
+			function() {
+				$(this).attr('src', '../images/lake_house/master_closet_1.jpg');
+			});
+			$('#master_bathroom').hover(function() {
+				$(this).attr('src', '../images/lake_house/master_bathroom_5.jpg');
+			},
+			function() {
+				$(this).attr('src', '../images/lake_house/master_bathroom_1.jpg');
+			});
+		});
+	</script>
+</head>
+<body>
+	<div style="background-image: url('../images/header_lake.png'); background-repeat: no-repeat; width: 100%; height: 15%; position: absolute;"></div>
+	<div class="container gallery-container">
+		<h1>THE LAKE HOUSE</h1>
+		<img src="../images/divider.png" alt="Divider"style="display: block; margin-left: auto; margin-right: auto;">
+		<p class="page-description text-center">
+			Renovations of a 2-story, 3 bedroom house with a beautiful lakeside view<br>
+			Hover over photos to view a before and after comparison<br>
+		</p>
+		
+		<div class="row">
+			<div class="col-sm-6 col-md-4">
+				<div class="thumbnail">
+					<a href="../images/lake_house/front_view_1.jpg" data-lightbox="front_view">
+						<img id="front_view" src="../images/lake_house/front_view_1.jpg" alt="Front View">
+						<img src="../images/gallery.png" style="position: absolute; top: 10px; right: 25px;">
+					</a>
+					<a href="../images/lake_house/front_view_2.jpg" data-lightbox="front_view"/>
+					<a href="../images/lake_house/front_view_3.jpg" data-lightbox="front_view"/>
+					<a href="../images/lake_house/front_view_4.jpg" data-lightbox="front_view"/>
+					<a href="../images/lake_house/front_view_5.jpg" data-lightbox="front_view"/>
+					<a href="../images/lake_house/front_view_6.jpg" data-lightbox="front_view"/>
+					<a href="../images/lake_house/front_view_7.jpg" data-lightbox="front_view"/>
+					<a href="../images/lake_house/front_view_8.jpg" data-lightbox="front_view"/>
+					<a href="../images/lake_house/front_view_9.jpg" data-lightbox="front_view"/>
+					<a href="../images/lake_house/front_view_10.jpg" data-lightbox="front_view"></a>
+					<div class="caption">
+						<h3>Front View</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4">
+				<div class="thumbnail">
+					<a href="../images/lake_house/back_view_1.jpg" data-lightbox="back_view">
+						<img id="back_view" src="../images/lake_house/back_view_1.jpg" alt="Back View">
+						<img src="../images/gallery.png" style="position: absolute; top: 10px; right: 25px;">
+					</a>
+					<a href="../images/lake_house/back_view_2.jpg" data-lightbox="back_view"/>
+					<a href="../images/lake_house/back_view_3.jpg" data-lightbox="back_view"/>
+					<a href="../images/lake_house/back_view_4.jpg" data-lightbox="back_view"/>
+					<a href="../images/lake_house/back_view_5.jpg" data-lightbox="back_view"/>
+					<a href="../images/lake_house/back_view_6.jpg" data-lightbox="back_view"/>
+					<a href="../images/lake_house/back_view_7.jpg" data-lightbox="back_view"></a>
+					<div class="caption">
+						<h3>Back View</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4">
+				<div class="thumbnail">
+					<a href="../images/lake_house/backyard_1.jpg" data-lightbox="backyard">
+						<img src="../images/lake_house/backyard_1.jpg" alt="Backyard">
+						<img src="../images/gallery.png" style="position: absolute; top: 10px; right: 25px;">
+					</a>
+					<a href="../images/lake_house/backyard_2.jpg" data-lightbox="backyard"/>
+					<a href="../images/lake_house/backyard_3.jpg" data-lightbox="backyard"></a>
+					<div class="caption">
+						<h3>Backyard</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4">
+				<div class="thumbnail">
+					<a href="../images/lake_house/foyer_1.jpg" data-lightbox="foyer">
+						<img id="foyer" src="../images/lake_house/foyer_1.jpg" alt="Foyer">
+						<img src="../images/gallery.png" style="position: absolute; top: 10px; right: 25px;">
+					</a>
+					<a href="../images/lake_house/foyer_2.jpg" data-lightbox="foyer"></a>
+					<div class="caption">
+						<h3>Foyer</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4">
+				<div class="thumbnail">
+					<a href="../images/lake_house/living_room_1.jpg" data-lightbox="living_room">
+						<img id="living_room" src="../images/lake_house/living_room_1.jpg" alt="Living Room">
+						<img src="../images/gallery.png" style="position: absolute; top: 10px; right: 25px;">
+					</a>
+					<a href="../images/lake_house/living_room_2.jpg" data-lightbox="living_room"/>
+					<a href="../images/lake_house/living_room_3.jpg" data-lightbox="living_room"/>
+					<a href="../images/lake_house/living_room_4.jpg" data-lightbox="living_room"/>
+					<a href="../images/lake_house/living_room_5.jpg" data-lightbox="living_room"/>
+					<a href="../images/lake_house/living_room_6.jpg" data-lightbox="living_room"/>
+					<a href="../images/lake_house/living_room_7.jpg" data-lightbox="living_room"/>
+					<a href="../images/lake_house/living_room_8.jpg" data-lightbox="living_room"/>
+					<a href="../images/lake_house/living_room_9.jpg" data-lightbox="living_room"/>
+					<a href="../images/lake_house/living_room_10.jpg" data-lightbox="living_room"></a>
+					<div class="caption">
+						<h3>Living Room</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4">
+				<div class="thumbnail">
+					<a href="../images/lake_house/dining_room_1.jpg" data-lightbox="dining_room">
+						<img id="dining_room" src="../images/lake_house/dining_room_1.jpg" alt="Dining Room">
+						<img src="../images/gallery.png" style="position: absolute; top: 10px; right: 25px;">
+					</a>
+					<a href="../images/lake_house/dining_room_2.jpg" data-lightbox="dining_room"/>
+					<a href="../images/lake_house/dining_room_3.jpg" data-lightbox="dining_room"/>
+					<a href="../images/lake_house/dining_room_4.jpg" data-lightbox="dining_room"/>
+					<a href="../images/lake_house/dining_room_5.jpg" data-lightbox="dining_room"/>
+					<a href="../images/lake_house/dining_room_6.jpg" data-lightbox="dining_room"/>
+					<a href="../images/lake_house/dining_room_7.jpg" data-lightbox="dining_room"></a>
+					<div class="caption">
+						<h3>Dining Room</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4">
+				<div class="thumbnail">
+					<a href="../images/lake_house/kitchen_1.jpg" data-lightbox="kitchen">
+						<img id="kitchen" src="../images/lake_house/kitchen_1.jpg" alt="Kitchen">
+						<img src="../images/gallery.png" style="position: absolute; top: 10px; right: 25px;">
+					</a>
+					<a href="../images/lake_house/kitchen_2.jpg" data-lightbox="kitchen"/>
+					<a href="../images/lake_house/kitchen_3.jpg" data-lightbox="kitchen"/>
+					<a href="../images/lake_house/kitchen_4.jpg" data-lightbox="kitchen"/>
+					<a href="../images/lake_house/kitchen_5.jpg" data-lightbox="kitchen"/>
+					<a href="../images/lake_house/kitchen_6.jpg" data-lightbox="kitchen"/>
+					<a href="../images/lake_house/kitchen_7.jpg" data-lightbox="kitchen"/>
+					<a href="../images/lake_house/kitchen_8.jpg" data-lightbox="kitchen"/>
+					<a href="../images/lake_house/kitchen_9.jpg" data-lightbox="kitchen"/>
+					<a href="../images/lake_house/kitchen_10.jpg" data-lightbox="kitchen"></a>
+					<div class="caption">
+						<h3>Kitchen</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4">
+				<div class="thumbnail">
+					<a href="../images/lake_house/1st_floor_bathroom_1.jpg" data-lightbox="1st_floor_bathroom">
+						<img id="1st_floor_bathroom" src="../images/lake_house/1st_floor_bathroom_1.jpg" alt="1st Floor Bathroom">
+						<img src="../images/gallery.png" style="position: absolute; top: 10px; right: 25px;">
+					</a>
+					<a href="../images/lake_house/1st_floor_bathroom_2.jpg" data-lightbox="1st_floor_bathroom"/>
+					<a href="../images/lake_house/1st_floor_bathroom_3.jpg" data-lightbox="1st_floor_bathroom"/>
+					<a href="../images/lake_house/1st_floor_bathroom_4.jpg" data-lightbox="1st_floor_bathroom"/></a>
+					<div class="caption">
+						<h3>1st Floor Bathroom</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4">
+				<div class="thumbnail">
+					<a href="../images/lake_house/stairs_1.jpg" data-lightbox="stairs">
+						<img id="stairs" src="../images/lake_house/stairs_1.jpg" alt="Stairs">
+						<img src="../images/gallery.png" style="position: absolute; top: 10px; right: 25px;">
+					</a>
+					<a href="../images/lake_house/stairs_2.jpg" data-lightbox="stairs"/>
+					<a href="../images/lake_house/stairs_3.jpg" data-lightbox="stairs"/>
+					<a href="../images/lake_house/stairs_4.jpg" data-lightbox="stairs"/>
+					<a href="../images/lake_house/stairs_5.jpg" data-lightbox="stairs"/>
+					<a href="../images/lake_house/stairs_6.jpg" data-lightbox="stairs"/>
+					<a href="../images/lake_house/stairs_7.jpg" data-lightbox="stairs"/>
+					<a href="../images/lake_house/stairs_8.jpg" data-lightbox="stairs"></a>
+					<div class="caption">
+						<h3>Stairs</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4">
+				<div class="thumbnail">
+					<a href="../images/lake_house/landing_1.jpg" data-lightbox="landing">
+						<img src="../images/lake_house/landing_1.jpg" alt="Landing">
+						<img src="../images/gallery.png" style="position: absolute; top: 10px; right: 25px;">
+					</a>
+					<a href="../images/lake_house/landing_2.jpg" data-lightbox="landing"></a>
+					<div class="caption">
+						<h3>Landing</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4">
+				<div class="thumbnail">
+					<a href="../images/lake_house/guest_bedroom_1.jpg" data-lightbox="guest_bedroom">
+						<img id="guest_bedroom" src="../images/lake_house/guest_bedroom_1.jpg" alt="Guest Bedroom">
+						<img src="../images/gallery.png" style="position: absolute; top: 10px; right: 25px;">
+					</a>
+					<a href="../images/lake_house/guest_bedroom_2.jpg" data-lightbox="guest_bedroom"/>
+					<a href="../images/lake_house/guest_bedroom_3.jpg" data-lightbox="guest_bedroom"/>
+					<a href="../images/lake_house/guest_bedroom_4.jpg" data-lightbox="guest_bedroom"/>
+					<a href="../images/lake_house/guest_bedroom_5.jpg" data-lightbox="guest_bedroom"/>
+					<a href="../images/lake_house/guest_bedroom_6.jpg" data-lightbox="guest_bedroom"/>
+					<a href="../images/lake_house/guest_bedroom_7.jpg" data-lightbox="guest_bedroom"></a>
+					<div class="caption">
+						<h3>Guest Bedroom</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4">
+				<div class="thumbnail">
+					<a href="../images/lake_house/guest_bathroom_1.jpg" data-lightbox="guest_bathroom">
+						<img src="../images/lake_house/guest_bathroom_1.jpg" alt="Guest Bathroom">
+						<img src="../images/gallery.png" style="position: absolute; top: 10px; right: 25px;">
+					</a>
+					<a href="../images/lake_house/guest_bathroom_2.jpg" data-lightbox="guest_bathroom"/>
+					<a href="../images/lake_house/guest_bathroom_3.jpg" data-lightbox="guest_bathroom"></a>
+					<div class="caption">
+						<h3>Guest Bathroom</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4">
+				<div class="thumbnail">
+					<a href="../images/lake_house/children's_bedroom_1.jpg" data-lightbox="children's_bedroom">
+						<img id="childrens_bedroom" src="../images/lake_house/children's_bedroom_1.jpg" alt="Children's Bedroom">
+						<img src="../images/gallery.png" style="position: absolute; top: 10px; right: 25px;">
+					</a>
+					<a href="../images/lake_house/children's_bedroom_2.jpg" data-lightbox="children's_bedroom"/>
+					<a href="../images/lake_house/children's_bedroom_3.jpg" data-lightbox="children's_bedroom"/>
+					<a href="../images/lake_house/children's_bedroom_4.jpg" data-lightbox="children's_bedroom"/>
+					<a href="../images/lake_house/children's_bedroom_5.jpg" data-lightbox="children's_bedroom"/>
+					<a href="../images/lake_house/children's_bedroom_6.jpg" data-lightbox="children's_bedroom"></a>
+					<div class="caption">
+						<h3>Children's Bedroom</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4">
+				<div class="thumbnail">
+					<a href="../images/lake_house/master_bedroom_1.jpg" data-lightbox="master_bedroom">
+						<img src="../images/lake_house/master_bedroom_1.jpg" alt="Master Bedroom">
+						<img src="../images/gallery.png" style="position: absolute; top: 10px; right: 25px;">
+					</a>
+					<a href="../images/lake_house/master_bedroom_2.jpg" data-lightbox="master_bedroom"/>
+					<a href="../images/lake_house/master_bedroom_3.jpg" data-lightbox="master_bedroom"/>
+					<a href="../images/lake_house/master_bedroom_4.jpg" data-lightbox="master_bedroom"/>
+					<a href="../images/lake_house/master_bedroom_5.jpg" data-lightbox="master_bedroom"></a>
+					<div class="caption">
+						<h3>Master Bedroom</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4">
+				<div class="thumbnail">
+					<a href="../images/lake_house/master_closet_1.jpg" data-lightbox="master_closet">
+						<img id="master_closet" src="../images/lake_house/master_closet_1.jpg" alt="Master Closet">
+						<img src="../images/gallery.png" style="position: absolute; top: 10px; right: 25px;">
+					</a>
+					<a href="../images/lake_house/master_closet_2.jpg" data-lightbox="master_closet"/>
+					<a href="../images/lake_house/master_closet_3.jpg" data-lightbox="master_closet"/>
+					<a href="../images/lake_house/master_closet_4.jpg" data-lightbox="master_closet"/>
+					<a href="../images/lake_house/master_closet_5.jpg" data-lightbox="master_closet"/>
+					<a href="../images/lake_house/master_closet_6.jpg" data-lightbox="master_closet"/>
+					<a href="../images/lake_house/master_closet_7.jpg" data-lightbox="master_closet"/>
+					<a href="../images/lake_house/master_closet_8.jpg" data-lightbox="master_closet"/>
+					<a href="../images/lake_house/master_closet_9.jpg" data-lightbox="master_closet"/>
+					<a href="../images/lake_house/master_closet_10.jpg" data-lightbox="master_closet"></a>
+					<div class="caption">
+						<h3>Master Closet</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4">
+				<div class="thumbnail">
+					<a href="../images/lake_house/master_bathroom_1.jpg" data-lightbox="master_bathroom">
+						<img id="master_bathroom" src="../images/lake_house/master_bathroom_1.jpg" alt="Master Bathroom">
+						<img src="../images/gallery.png" style="position: absolute; top: 10px; right: 25px;">
+					</a>
+					<a href="../images/lake_house/master_bathroom_2.jpg" data-lightbox="master_bathroom"/>
+					<a href="../images/lake_house/master_bathroom_3.jpg" data-lightbox="master_bathroom"/>
+					<a href="../images/lake_house/master_bathroom_4.jpg" data-lightbox="master_bathroom"/>
+					<a href="../images/lake_house/master_bathroom_5.jpg" data-lightbox="master_bathroom"/>
+					<a href="../images/lake_house/master_bathroom_6.jpg" data-lightbox="master_bathroom"/>
+					<a href="../images/lake_house/master_bathroom_7.jpg" data-lightbox="master_bathroom"/>
+					<a href="../images/lake_house/master_bathroom_8.jpg" data-lightbox="master_bathroom"/>
+					<a href="../images/lake_house/master_bathroom_9.jpg" data-lightbox="master_bathroom"></a>
+					<div class="caption">
+						<h3>Master Bathroom</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<img src="../images/tab_left.png" style="position: fixed; top: 0px; left: 0px;">
+		<font style="position: fixed; top: 3px; left: 15px; font-size: 16pt; font-family: 'Droid Sans', sans-serif; font-weight: bold; color: #58595a;">THE LAKEHOUSE</font>
+		<font style="position: fixed; top: 3px; left: 300px; font-size: 16pt; font-family: 'Droid Sans', sans-serif; font-weight: bold; color: #58595a;">2/2</font>
+		
+		<img src="../images/tab_right.png" style="position: fixed; top: 0px; right: 0px;">
+		<!--
+		<a href="yardhouse.html">
+			<img class="arrow" src="../images/arrow_last.png" style="position: absolute; top: 7px; right: 300px; opacity: 0.5;">
+		</a>
+		<a href="yardhouse.html">
+			<img class="arrow" src="../images/arrow_left.png" style="position: absolute; top: 7px; right: 230px; opacity: 0.5;">
+		</a>
+		-->
+		<a href="index.html">
+			<img class="arrow" src="../images/home.png" style="position: fixed; top: 3px; right: 160px; opacity: 0.5;">
+		</a>		
+		<a href="yardhouse.html">
+			<img class="arrow" src="../images/arrow_right.png" style="position: fixed; top: 7px; right: 90px; opacity: 0.5;">
+		</a>
+		<a href="yardhouse.html">
+			<img class="arrow" src="../images/arrow_first.png" style="position: fixed; top: 7px; right: 20px; opacity: 0.5;">
+		</a>
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+	<script>
+		baguetteBox.run('.tz-gallery');
+	</script>
+</body>
+</html>
