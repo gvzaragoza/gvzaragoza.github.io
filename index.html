@@ -26,6 +26,12 @@
 				$(this).css('opacity', 0.5);
 			});
 			
+			$('#home').hover(function() {	
+				$(this).attr('src', 'images/home/backyard_1.jpg');
+			},
+			function() {
+				$(this).attr('src', 'images/home/front_view_1.jpg');
+			});
 			$('#lake_house').hover(function() {	
 				$(this).attr('src', 'images/lake_house/backyard_1.jpg');
 			},
@@ -50,6 +56,17 @@
     <p class="page-description text-center"></p>
 
 	<div class="row">
+		<div class="col-sm-6 col-md-4">
+			<div class="thumbnail">
+				<a href="home.html">
+					<img id="home" src="images/home/front_view_1.jpg" alt="Home">
+				</a>
+				<div class="caption">
+					<h3>2537 Gaines Mill Drive</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				</div>
+			</div>
+		</div>
 		<div class="col-sm-6 col-md-4">
 			<div class="thumbnail">
 				<a href="lakehouse.html">
